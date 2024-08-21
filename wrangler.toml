@@ -1,0 +1,15 @@
+name = "your-project-name"
+main = "src/index.ts"
+compatibility_date = "2023-05-18"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "your_database_name"
+database_id = "your_database_id"
+
+[[kv_namespaces]]
+binding = "OTP_STORE"
+id = "your_kv_namespace_id"
